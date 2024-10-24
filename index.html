@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/media.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <!-- <script defer src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>-->
   <script defer src="./js/script.js"></script>
 </head>
 
@@ -28,13 +27,13 @@
       <nav class="header__nav" data-header__nav>
         <ul class="nav__list list-reset">
           <li class="nav__item">
-            <a href="#info" class="nav__link">Information</a>
+            <a href="#info" class="nav__link js-scroll js-scroll-link">Information</a>
           </li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About us</a>
+            <a href="#about" class="nav__link js-scroll js-scroll-link">About us</a>
           </li>
           <li class="nav__item">
-            <a href="#advantages" class="nav__link">Culture</a>
+            <a href="#advantages" class="nav__link js-scroll js-scroll-link">Culture</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +50,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero__bg"></div>
       <div class="container hero__container">
         <div class="hero__socials">
@@ -104,7 +103,7 @@
         </div>
       </div>
     </section>
-    <section class="info">
+    <section class="info" id="info">
       <div class="container info__container">
         <div class="info__img">
           <img src="./img/info-img.jpg" alt="Indonesia">
@@ -127,7 +126,7 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container about__container">
         <div class="swiper-container swiper about__swiper">
           <div class="swiper-wrapper">
@@ -173,7 +172,7 @@
         </div>
       </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
       <div class="container advantages__container">
         <div class="advantages__content">
           <p class="advantages__note note">INDONESIAN CULTURE</p>
@@ -194,7 +193,7 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" >
       <div class="container contacts__container">
         <a href="#" class="logo__link">
           <img src="./img/contacts__logo.svg" alt="Логотип">
