@@ -299,7 +299,6 @@
 
   .hero__bg {
     height: 100vh;
-    background-image: url(../img/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
