@@ -434,7 +434,7 @@ h5 {
 }
 
 .first-slide {
-  background-image: url('../img/about-1.jpg');
+  background-image: url('../img/about-1.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -489,7 +489,7 @@ h5 {
 
 
 .second-slide {
-  background-image: url('../img/about-2.jpg');
+  background-image: url('../img/about-2.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
